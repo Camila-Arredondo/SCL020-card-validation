@@ -11,8 +11,27 @@ describe('validator', () => {
       expect(typeof validator.isValid).toBe('function');
     });
 
-    it('debería retornar true para "5159500848417645"', () => {
-      expect(validator.isValid('5159500848417645')).toBe(true);
+    it('debería retornar true para "6011111111111117"', () => {
+      expect(validator.isValid('6011111111111117')).toBe(true);
+    });
+
+    it('debería retornar true para "6011000990139424"', () => {
+      expect(validator.isValid('6011000990139424')).toBe(true);
+    });
+
+    it('debería retornar true para "5555555555554444"', () => {
+      expect(validator.isValid('5555555555554444')).toBe(true);
+    });
+
+    it('debería retornar true para "5105105105105100"', () => {
+      expect(validator.isValid('5105105105105100')).toBe(true);
+    });
+    it('debería retornar true para "4111111111111111"', () => {
+      expect(validator.isValid('4111111111111111')).toBe(true);
+    });
+
+    it('debería retornar true para "4012888888881881"', () => {
+      expect(validator.isValid('4012888888881881')).toBe(true);
     });
 
     it('debería retornar true para "79927398713"', () => {
@@ -41,4 +60,5 @@ describe('validator', () => {
       expect(validator.maskify('helloworld')).toBe('######orld');
     });
   });
+
 });

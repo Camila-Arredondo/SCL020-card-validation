@@ -19,9 +19,6 @@ body {
 header {
   background-color: #007056;
   height: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
 }
 
 .navmenu {
