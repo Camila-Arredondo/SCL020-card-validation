@@ -18,7 +18,7 @@ body {
 /*Formato Header y barra de navegacións ============ */
 header {
   background-color: #007056;
-  height: 100px;
+  height: 60px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
