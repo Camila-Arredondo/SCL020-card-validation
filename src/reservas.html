@@ -3,7 +3,8 @@
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8">
     <title>Reservas - Hotel MyCan</title>
     <link rel="stylesheet" href="reservas.css" />
@@ -12,7 +13,7 @@
   <header>
 
     <nav class="navmenu">
-      <div class="logo"><img class="imagen3" src="pictures/logobco.png" width="40px" alt=""></div>
+      <div class="logo"><a class= "logolink" href="index.html"> <img class="imagen3" src="pictures/logobco.png" width="40px" alt=""></a></div>
       <ul>
          <li> 
           <a href="nosotros.html">Nosotros</a> 
@@ -41,47 +42,45 @@
         </div>
       <div class="form">
 
-        <label for="start">Ingrese su correo electrónico*</label>
-        <input type="text" id="correo" name="inputcc" value="" placeholder="xxxxxx.xxxx@xxxx.xx">
-        <br>
-        <br>
-
-        <label id="calendario">Seleccione una fecha*</label>
-        <input type="date" id="fecha" name="trip-start" value="AAAA-MM-DD" min="2022-04-01" max="2030-12-31">
-        <br>
-        <br>
-
-        <label id="numerostarjeta"> Número de Tarjeta* </label>
-        <input type="numeric" id="ntarjeta" class= "inputcc" value="" maxlength="16" placeholder="16 digitos" />
-        <br>
-        <br>
-          
-          <label id="nombreusuario"> Nombre y Apellido* </label>
-          <input type="text" id="nombre" class= "inputcc" value="" placeholder="Maria Pino" >
-          <br>
-          <br>
-          
-          <label id="fecha"> Fecha de Vencimiento*</label>
-          <input type="text" id="fechavencimiento"  class= "inputcc" value="" maxlength="5" placeholder= "MM/AA" />
-          <br>
-          <br>
-          
-          <label id="cvv"> CVV* </label>
-          <input type="text" id="digito" class= "inputcc" value="" maxlength="3" placeholder="Reverso de la tarjeta"  />
-         
-          <p>* Campos obligatorios</p>
+        <div class="divinput">
+          <label for="start">Ingrese su correo electrónico*</label>
+          <input class= "input" type="text" id="correo" name="inputcc" value="" placeholder="xxxxxx.xxxx@xxxx.xx">
         </div>
-        <button id="validar" class="boton"> Validar </button>
-  
+        <div class="divinput">
+          <label id="calendario">Seleccione una fecha*</label>
+          <input class= "input" type="date" id="fecha" name="trip-start" value="AAAA-MM-DD" min="2022-04-01" max="2030-12-31">
+        </div>
+        <div class="divinput">
+          <label id="numerostarjeta"> Número de Tarjeta* </label>
+          <input class ="input" type="numeric" id="ntarjeta" class= "inputcc" value="" maxlength="16" placeholder="16 digitos" />
+        </div>
+        <div class="divinput">  
+            <label id="nombreusuario"> Nombre y Apellido* </label>
+            <input type="text" id="nombre" class= "inputcc" value="" placeholder="Maria Pino" >
+        </div>
+          <div class="divinput">  
+            <label id="fecha"> Fecha de Vencimiento*</label>
+            <input type="text" id="fechavencimiento"  class= "inputcc" value="" maxlength="5" placeholder= "MM/AA" />
+        </div>
+            <div class="divinput">
+              <label id="cvv"> CVV* </label>
+              <input type="text" id="digito" class= "inputcc" value="" maxlength="3" placeholder="Reverso de la tarjeta"/>
+            </div>
+        <p>* Campos obligatorios</p>
+        </div>
+       <button id="validar" class="boton"> Validar </button>
         <img class="imagen" src="pictures/Perro2.png" alt="">
       </div>
+   
+      </main>
     </main>
   </section>
     
 
 <footer> 
   <div class="containerfooter">
-    
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
   </div> 
 </footer>
 

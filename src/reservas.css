@@ -1,165 +1,122 @@
 * {
-    box-sizing: content-box;
-    margin: 0;
-    padding: 0;
-    
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
 }
 
-
 body {
-    /* outline: 20px solid red;*/
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    background-color: rgb(9, 121, 82);
-    font-family: 'Patrick Hand';
-    font-size: 20px;
-
+  background-color: #007056;
+  font-family: "Ubuntu";
 }
 
 header {
-    /* outline: 4px solid rgb(215, 248, 30);*/
-    background-color: rgb(9, 121, 82);
-    height: 100px;
-    
-    flex-direction: column;
-    align-items: center;
-    
-
+  background-color: #007056;
+  height: 60px;
 }
 
 .navmenu {
-    /* outline: 2px solid rgb(240, 124, 15);*/
-    margin: 40px 0px 10px 0px;
-    display:flex;
-    justify-content: space-between; 
+  margin: 40px 0px 10px 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
 ul {
-    /*outline: 10px solid rgb(221, 20, 188);*/
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0px 20px 0px 0px;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0px 20px 0px 0px;
+}
 
+section {
+  max-height: max-content;
 }
 
 .boton {
-
-    /*outline: 2px solid cornflowerblue; */
-    text-decoration: none;
-    margin: 40px;
-    color: rgb(255, 255, 255);
-    background-color: #007056;;
-    padding: 10px;
-    border-radius: 10px;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+  background-color: #007056;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
 .container {
-    display: flex;
+  display: flex;
 }
 
 .containermain {
-    /*outline: 2px solid red;*/
-    display: flex;
-     flex-direction: column;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(141, 140, 140);
-    font-style: italic;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(141, 140, 140);
 }
 
-.boxreservaypaso{
-   /* outline: 2px solid red;*/
-    display:flex;
-    flex-direction: column;
+h1 {
+  margin: 50px 0px 0px 0px;
+  color: #007056;
 }
 
-
-h1{
-    /*corregir ajuste de h1 padding y margin, quizas generar una div?*/
-   /* outline:2px solid yellow;*/
-    margin: 50px 0px 0px 0px;
-    padding: 0px 300px 0px 0px;
-    color:#007056;
-}
-
-h2{
-    font-size: 20px;    
-}
-
-p {
-    margin: 50px;
-}
-
-button {
-    border-radius: 10px;
+h2 {
+  font-size: 20px;
+  margin: 10px 0px;
 }
 
 .imagen {
-    /*outline: 2px solid red;*/
-    width: 40%;
+  width: 60%;
 }
 
 .imagen3 {
-    margin-left: 40px;
-    
-
+  margin-left: 40px;
 }
 
-
-::placeholder{
-color: rgb(196, 196, 196);
-
-}
-
-
-
-footer {
-    display: flex;
+::placeholder {
+  color: rgb(196, 196, 196);
 }
 
 .containerfooter {
-    background-color: #007056;;
+  background-color: #007056;
+  display: flex;
+  justify-content: end;
+  margin: 20px;
 }
-
-/* pagina 3*/
 
 .form {
-    /*outline: 1px solid rgb(142, 17, 167);*/
-    padding: 20px 60px 20px 60px;
-    margin: 20px 0px 20px 0px;
-    background: #FFFFFF;
-    box-shadow: 2px 4px 4px 5px rgba(152, 152, 152, 0.2);
-    border-radius: 20px;
-
+  padding: 20px 60px 20px 60px;
+  margin: 20px 50px 20px 50px;
+  background: #ffffff;
+  box-shadow: 2px 4px 4px 5px rgba(152, 152, 152, 0.2);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.inputcc {
-    Margin: 0px;
-    color: #000000;
-    border-radius: 5px;
+.divinput {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+input {
+  margin: 0px 15px;
+  color: #a7a7a7;
+  border-radius: 3px;
+  padding: 5px 5px;
 }
 
-
-
-label {
-    /*outline: 1px solid yellow;*/
-    margin: 20px;
-
+a {
+  font-size: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0px 10px 0px 10px;
 }
 
-a{
-    font-size: 16px;
-    color:#FFFFFF;
-    text-decoration: none;
-    margin: 0px 10px 0px 10px;
+p {
+  margin: 15px 0px;
+  font-size: 14px;
+  font-style: italic;
 }
 
-p{
-    margin: 20px;
-    padding:0px;
-    font-size: 10px;
-
+.navmenu a:hover {
+  color: #004333;
+  font-size: larger;
 }
