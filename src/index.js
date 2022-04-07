@@ -55,15 +55,12 @@ document.getElementById("validar").addEventListener('click', () => {
 
     let tipotarjeta = tipoTC.tipoTarjeta(valortarjeta);
 
-
     if ( tipotarjeta === "" ){
       alert( validator.maskify(valortarjeta) + ' ' + tipoTC.tipoTarjeta(valortarjeta)  + ' es INVÁLIDA, ' + nusuario + ' intente nuevamente.')
     }else{
       alert( validator.maskify(valortarjeta) + ' ' +  tipotarjeta + ' es VÁLIDA, ' + nusuario + ' su reserva se ha realizado exitosamente. El comprobante de reserva será enviado al correo indicado anteriormente.');
       window.location.href = "http://localhost:3000 " 
     }
-
-
 
   } else {
     alert( validator.maskify(valortarjeta) + ' ' + tipoTC.tipoTarjeta(valortarjeta)  + ' es INVÁLIDA, ' + nusuario + ' intente nuevamente.')
@@ -148,7 +145,6 @@ const calendario = {
     if (mesmax === "13"){
       mesmax = "01";
       anhiomax = String(Number (anhiomax) + 1)
-
     }
 
 
