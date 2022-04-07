@@ -258,23 +258,37 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
-Hotel MyCan
+Proyecto Card Validation : Hotel MyCan
+
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-Hotel MyCan 
+Página web que ayuda al usuario a generar reservas mediante la validación de la tarjeta de crédito.
+
 * La imagen final de tu proyecto.
 
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+Los principales usuarios son individuos entre 25 y 45 años, de nivel socieconómico medio medio-alto, que tengan como mascota perro/s y los consideren como un hij@ y un integrante más de la familia. Necesitan un lugar en Santiago donde dejar a sus mascotas en caso de viaje, compromiso, etc. Para contratar el servicio de hoteleria canina los usuarios deben ingresar a la página de Hotel Mycan y seleccionar la fecha en la que requieren el servicio y posteriormente ingresar datos de tarjeta para poder hacer efectiva la reserva. Una vez validada la tarjeta se le envia un correo adjuntando el comprobante de reserva.
 
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+problema usuario: con quién dejar a su mascota.
+Página web que entrega información y permite acceder a página de reservas, donde podrán agendar el servicio de forma rápida y transparente. Logrando satisfacer sus necesidades.
 
   3. Luego colocarás la foto de tu primer prototipo en papel.
+![Prototipo de baja fidelidad](docs/img/prototipo%20inicial.jpg)
+
 
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+-Prototipo inicial contaba con mucha página/click antes de llegar a ventana que permite solucionar necesidad.
+-Inicialmente página de reservas contaba con vista de Paso 1 de 2 lo que era confuso por lo que se opto por unificar
+los pasos y generar calendario en la misma vista para así realizar la reserva en un solo paso.
+-No enfocarse en páginas estaticas que otorgan contexto al proyecto, sino que perfeccionar la validación.
+-Identificar tipo de tarjeta através del primer digito de la tarjeta de crédito.
 
   5. Imagen del prototipo final.
+![prueba](docs/img/portada.jpg)
+![Prototipo de Alta Fidelidad](docs/img/reserva.jpg)
 
 #### Visualmente (HTML y CSS)
 
