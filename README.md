@@ -276,7 +276,7 @@ problema usuario: con quién dejar a su mascota.
 Página web que entrega información y permite acceder a página de reservas, donde podrán agendar el servicio de forma rápida y transparente. Logrando satisfacer sus necesidades.
 
   3. Luego colocarás la foto de tu primer prototipo en papel.
-![Prototipo de baja fidelidad](docs/img/prototipoinicial1.jpg)(docs/img/prototipo%20inicial.jpg)
+![Prototipo de baja fidelidad](docs/img/prototipoinicial1.jpg)
 
 
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
